@@ -64,3 +64,24 @@
     transform: translate(-50%, -50%);
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    padding-left: 10%;
+}
+
+.flex-child{
+    flex:1;
+    margin: 1em;
+}
+
+.donkey_news a{
+    color: black;
+}
