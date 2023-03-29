@@ -50,11 +50,22 @@
     cursor: pointer;
 }
 
+.site_title_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
 
-#main_article{
+.title{
+    padding-top: 3em;
+}
+
+
+.main_article{
     position: relative;
     text-align: center;
     color: black;
+    margin-top: 1em;
 }
 
 .centered_text{
@@ -62,6 +73,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: black;
 }
 
 .grid-container{
@@ -85,3 +97,37 @@
 .donkey_news a{
     color: black;
 }
+
+.upcoming_event_container{
+    padding-left: 10%;
+    width: 70%;
+}
+.upcoming_event{
+    display: flex;
+    width: 70%;
+    padding-left: 10%;
+
+}
+
+.calendar{
+    padding-top: 1em;
+    max-width:75px;
+    max-height:125px;
+}
+
+.upcoming_event_child{
+    padding-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
