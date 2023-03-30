@@ -1,3 +1,5 @@
+
+
 /* styling navlist */
 #navlist {
     background-color: #0c8955c2;
@@ -117,6 +119,10 @@
 
 .upcoming_event_child{
     padding-right: 5%;
+}
+
+.upcoming_event_child a{
+    color: black;
 }
 
 
